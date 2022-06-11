@@ -13,7 +13,19 @@
 ### 入力コマンド
 
 - フロント側
+  - npx create-react-app frontend --template typescript
+  - npm install axios
+  - npm install @types/react-router-dom
+  - npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^6
 - サーバー側
+  - pip install virtulenv
+    - これはグローバル
+  - cd backend
+  - python -m venv .venv
+  - .\.venv\Scripts\activate
+  - pip install fastapi[all]
+  - pip install black
+-
 
 ### 参考ページ
 
